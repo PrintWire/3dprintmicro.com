@@ -1,0 +1,197 @@
+baseURL = "https://3dprintmicro.com/"
+languageCode = "en-us"
+title = "Micro 3D Print"
+theme = "printwire"
+
+[params]
+tagline       = "Sub-100µm resolution additive manufacturing for microfluidics, biosensors, and precision tissue constructs."
+description   = "Micro 3D Print covers high-resolution additive manufacturing at the microscale — from two-photon polymerisation to high-resolution extrusion for biomedical applications."
+keywords      = "micro 3D printing, two-photon polymerisation, microfluidics, high resolution bioprinting, PDMS, soft lithography"
+logoEmoji     = "🔭"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#0e7490"
+colorPrimaryDark  = "#155e75"
+colorPrimaryLight = "#22a3bf"
+colorBgDark       = "#06080f"
+colorBgSection    = "#08101a"
+colorBgCard       = "#0d1520"
+colorBgCardHover  = "#111d2b"
+colorBorder       = "rgba(14,116,144,0.22)"
+colorBorderLight  = "rgba(14,116,144,0.10)"
+
+fontPrimary   = "Playfair+Display"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = [
+  "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80",
+  "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80",
+]
+
+heroEyebrow  = "Microscale Bioprinting"
+heroTitle    = "Micro <em>3D Print</em>"
+heroSubtitle = "Sub-100µm resolution additive manufacturing for microfluidics, biosensors, and precision tissue constructs."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+overviewLabel   = "Resolution"
+overviewTitle   = "Printing at the Microscale"
+overviewText    = "Resolution down to 200nm with two-photon polymerisation. Extrusion bioprinting at 50–200µm for vascular channels and neural scaffolds."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsLabel = "Applications"
+applicationsTitle = "Industries We Serve"
+servicesLabel    = "What We Do"
+servicesTitle    = "Micro 3D Print Services"
+servicesSubtitle = "Sub-100µm resolution additive manufacturing for microfluidics, biosensors, and precision tissue constructs."
+clusterLabel = "PrintWire Network"
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Sub-100µm resolution additive manufacturing for microfluidics, biosensors, and precision tissue constructs."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 200
+suffix = "nm"
+label  = "Min Feature (2PP)"
+
+[[params.stats]]
+count  = 50
+suffix = "µm"
+label  = "Min Channel Diameter"
+
+[[params.stats]]
+count  = 98
+suffix = "%"
+label  = "Dimensional Accuracy"
+
+[[params.stats]]
+count  = 10
+suffix = "x"
+label  = "Faster than Soft Lithography"
+
+
+[[params.applications]]
+title       = "Microfluidic Devices"
+description = "Lab-on-chip and organ-on-chip platforms with integrated micro-channels."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+[[params.applications]]
+title       = "Biosensor Scaffolds"
+description = "High-resolution sensor substrates for electrochemical and optical biosensing."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+[[params.applications]]
+title       = "Neural Tissue Models"
+description = "Microscale neural scaffolds for axon guidance and brain organoid research."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+[[params.applications]]
+title       = "Vascular Microchannels"
+description = "Perfusable micro-vessels for vascularised tissue construct research."
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🔭"
+title       = "Two-Photon Polymerisation"
+description = "Sub-micron 3D structures for optical components, scaffolds, and microfluidic masters — resolution to 200nm."
+
+[[params.servicesPreview]]
+icon        = "⬡"
+title       = "Microfluidic Device Fabrication"
+description = "Custom lab-on-chip devices in PDMS, resin, or biocompatible polymer with integrated channels to 50µm."
+
+[[params.servicesPreview]]
+icon        = "🧬"
+title       = "High-Res Extrusion Bioprinting"
+description = "Cell-laden constructs with 100–200µm resolution for vascular and neural tissue engineering."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Scaffold Characterisation"
+description = "SEM, confocal, and AFM imaging plus mechanical testing of micro-scale constructs."
+
+
+[[params.services]]
+name        = "Two-Photon Polymerisation"
+description = "Sub-micron 3D structures for optical components, scaffolds, and microfluidic masters — resolution to 200nm."
+icon        = "🔭"
+image       = "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&q=80"
+
+[[params.services]]
+name        = "Microfluidic Device Fabrication"
+description = "Custom lab-on-chip devices in PDMS, resin, or biocompatible polymer with integrated channels to 50µm."
+icon        = "⬡"
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
+
+[[params.services]]
+name        = "High-Res Extrusion Bioprinting"
+description = "Cell-laden constructs with 100–200µm resolution for vascular and neural tissue engineering."
+icon        = "🧬"
+image       = "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
+
+[[params.services]]
+name        = "Scaffold Characterisation"
+description = "SEM, confocal, and AFM imaging plus mechanical testing of micro-scale constructs."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprinttissue.com"
+url         = "https://3dprinttissue.com"
+description = "Bioprinting & tissue engineering"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintceramic.com"
+url         = "https://3dprintceramic.com"
+description = "Ceramic additive manufacturing"
+
+[[params.clusterLinks]]
+name        = "3dprintfood.com"
+url         = "https://3dprintfood.com"
+description = "Food bioprinting"
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6
